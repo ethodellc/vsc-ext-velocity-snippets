@@ -1,0 +1,33 @@
+{
+  "name": "dotcms-velocity-snippets",
+  "author": "Tom Kisha",
+  "displayName": "dotCMS Velocity Snippets",
+  "description": "A collection of Velocity and dotCMS snippets for IntelliSense",
+  "keywords": ["dotcms", "velocity", "vtl"],
+  "version": "0.9.0",
+  "publisher": "ethode",
+  "pricing": "Free",
+  "license": "GPL-3.0-only",
+  "icon": "images/dotcms-velocity-icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethodellc/vsc-ext-velocity-snippets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ethodellc/vsc-ext-velocity-snippets/issues"
+  },
+  "engines": {
+    "vscode": "^1.700.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "velocity",
+        "path": "./velocity.json"
+      }
+    ]
+  }
+}
