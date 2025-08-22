@@ -4,7 +4,7 @@
   "displayName": "dotCMS Velocity Snippets",
   "description": "A collection of Velocity and dotCMS snippets for IntelliSense",
   "keywords": ["dotcms", "velocity", "vtl"],
-  "version": "0.9.0",
+  "version": "0.9.1",
   "publisher": "ethode",
   "pricing": "Free",
   "license": "GPL-3.0-only",
