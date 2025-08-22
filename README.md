@@ -12,7 +12,7 @@ ViewTool methods were derived from either [dotCMS's JavaDocs](https://doc.dotcms
 
 ## Quick Start
 
-1. Install this extension: `ext install ethodellc.dotcms-velocity-snippets`
+1. Install this extension: `ext install ethode.dotcms-velocity-snippets`
 1. Install a VSCode extension that is able to parse Apache Velocity files
 1. Add the below snippet to your `settings.json`. None of the existing Velocity LSPs have support for this extension out of the box, but is the standard file extension for Velocity files when working with dotCMS.
     ```json
