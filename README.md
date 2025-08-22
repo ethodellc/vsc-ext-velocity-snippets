@@ -6,7 +6,7 @@ ViewTool methods were derived from either [dotCMS's JavaDocs](https://doc.dotcms
 
 ## Screenshot
 
-![Screenshot of VSCode suggestion using snippets](images/screenshot-autocomplete.png)
+![Screenshot of VSCode suggestion using snippets](https://raw.githubusercontent.com/ethodellc/vsc-ext-velocity-snippets/6169007427a5f7cd39974d28628632d07c4fb0f9/images/screenshot-autocomplete.png?token=GHSAT0AAAAAADH5G33GO2AGYV67IROHBN742FIV2MA)
 
 
 
