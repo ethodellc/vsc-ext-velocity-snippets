@@ -8971,7 +8971,7 @@
       "set"
     ],
     "body": [
-      "#set (\\$${1:var} = ${})"
+      "#set (\\$${1:var} = ${2:value})"
     ]
   },
   "#set ($dotJSON.prop = )": {
