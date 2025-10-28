@@ -2,6 +2,7 @@
   "$UtilMethods.isSet(any var): static boolean": {
     "prefix": [
       "$",
+      "isset",
       "UtilMethods.isSet",
       "$UtilMethods.isSet"
     ],
@@ -36,6 +37,7 @@
     "prefix": [
       "$",
       "date.format",
+      "format",
       "$date.format"
     ],
     "body": [
@@ -9868,6 +9870,83 @@
     ],
     "body": [
       "#set (\\$${1:var} = ${2:value})"
+    ]
+  },
+  "#if (condition) body #end": {
+    "prefix": [
+      "#",
+      "if",
+      "#if"
+    ],
+    "body": [
+      "#if (${1:condition})",
+      "\t${2:output}",
+      "#end"
+    ]
+  },
+  "#elseif (condition)": {
+    "prefix": [
+      "#",
+      "elseif",
+      "#elseif"
+    ],
+    "body": [
+      "#elseif (${1:condition})",
+      "\t${2:output}",
+      "#end"
+    ]
+  },
+  "#if (condition) #elseif (condition) #end": {
+    "prefix": [
+      "#",
+      "ifelseif",
+      "#ifelseif"
+    ],
+    "body": [
+      "#if (${1:condition})",
+      "\t${2:output}",
+      "#elseif (${3:condition})",
+      "\t${4:output}",
+      "#end"
+    ]
+  },
+  "#if (condition) #else #end": {
+    "prefix": [
+      "#",
+      "ifelse",
+      "#ifelse"
+    ],
+    "body": [
+      "#if (${1:condition})",
+      "\t${2:output}",
+      "#else",
+      "\t${3:output}",
+      "#end"
+    ]
+  },
+  "#if ($UtilMethods.isSet())": {
+    "prefix": [
+      "#",
+      "isset",
+      "ifisset",
+      "#ifisset"
+    ],
+    "body": [
+      "#if ($UtilMethods.isSet(${1:condition}))",
+      "\t${2:output}",
+      "#end"
+    ]
+  },
+  "#foreach (ref in array) body #end": {
+    "prefix": [
+      "#",
+      "foreach",
+      "#foreach"
+    ],
+    "body": [
+      "#foreach (${1:ref} in ${2:array})",
+      "\t${3:output}",
+      "#end"
     ]
   },
   "#set ($dotJSON.prop = )": {
