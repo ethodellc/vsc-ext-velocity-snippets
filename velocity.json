@@ -9932,7 +9932,7 @@
       "#ifisset"
     ],
     "body": [
-      "#if ($UtilMethods.isSet(${1:condition}))",
+      "#if (\\$UtilMethods.isSet(${1:condition}))",
       "\t${2:output}",
       "#end"
     ]
